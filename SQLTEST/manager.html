@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>큰거온다</title>
+    <h1>오늘의 매니저</h1>
+    <style>
+		h1 { text-align: center; }
+
+        span {
+        position: relative;
+        animation-name: bus;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+                }
+
+        a:visited{color:black}
+        
+        @keyframes bus {
+        0%   {left:0px; top:0px;}
+        100%  {left:200px; top:0px;}
+        }
+	</style>
+</body>
+</head>
+<body>
+    <span>
+        <img width="560" height="515" src="bus.png">
+        <br>
+        <br>
+        </span>
+   <p p style="font-size: 25px; color:rebeccapurple">빠아아스</p>
+   <button type="button" onclick="location.href='result.html' ">확인</button>
+</html>
